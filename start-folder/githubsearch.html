@@ -4,13 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>課題提出場所</title>
+        <title>Github検索</title>
         <link rel="stylesheet" href="./CSS/style.css">
+
     </head>
 
     <body>
         <header>
-            <h1>課題提出場所</h1>
+            <h1>お問い合わせ</h1>
             <nav>
                 <ul class="nav-list">
                     <li><a href="../index.html">ホーム</a></li>
@@ -22,12 +23,12 @@
             </nav>
         </header>
         <main>
-            <section>
-                <ul class="work-list">
-                    <li><a href="./JavascriptWork/Work_1_3/1_3.html">work1_3課題</a></li>
-                    <li><a href="./JavascriptWork/Work_1_4/1_4.html">work1_4課題</a></li>
-                    <li><a href="./JavascriptWork/Work_1_6/1_6.html">work1_6課題</a></li>
-                </ul>
+            <section class="contact-form">
+                <h1>Githubユーザー情報を取得しよう</h1>
+                <input type="text" id="username" placeholder="GitHubユーザー名を入力">
+                <button id="searchBtn">検索</button>
+                <div id="result"></div>
+                <script src="./Javascript/githubsearch.js"></script>
             </section>
         </main>
         <footer>
